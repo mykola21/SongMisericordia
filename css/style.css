@@ -1,7 +1,19 @@
-.sondedit{
-    width: 1px;
-    margin-left: 0px;
+/* scroll-btn */
+
+#scrollToTopBtn {
+    display: none; /* Початково ховаємо кнопку */
+    position: fixed; /* Фіксуємо кнопку на сторінці */
+    bottom: 20px; /* Відстань від нижнього краю сторінки */
+    right: 20px; /* Відстань від правого краю сторінки */
+    z-index: 99; /* Забезпечуємо, щоб кнопка завжди була найвищим шаром */
+    background-color: #3d88ce; /* Колір кнопки */
+    color: white; /* Колір тексту кнопки */
+    border: none; /* Відключаємо границі */
+    border-radius: 50%; /* Закруглюємо краї кнопки (щоб вона була круглою) */
+    padding: 15px; /* Збільшуємо розмір кнопки */
+    cursor: pointer; /* Змінюємо вигляд курсору при наведенні на кнопку */
 }
-.id-song{
-    padding: 0px;
+
+a{
+    text-decoration: none;
 }
