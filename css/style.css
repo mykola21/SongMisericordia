@@ -14,6 +14,7 @@
     cursor: pointer; /* Змінюємо вигляд курсору при наведенні на кнопку */
 }
 
-a{
+a {
     text-decoration: none;
+    color: rgb(59, 1, 117);
 }
