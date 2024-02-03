@@ -1,5 +1,11 @@
 /* scroll-btn */
 
+body {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
 #scrollToTopBtn {
     display: none; /* Початково ховаємо кнопку */
     position: fixed; /* Фіксуємо кнопку на сторінці */
@@ -16,5 +22,5 @@
 
 a {
     text-decoration: none;
-    color: rgb(59, 1, 117);
+    color: rgb(4, 109, 35);
 }
