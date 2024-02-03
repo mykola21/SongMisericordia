@@ -6,6 +6,11 @@ body {
   font-style: italic;
   }
 
+  a {
+    text-decoration: none;
+    color: rgb(4, 109, 35);
+}
+
 #scrollToTopBtn {
     display: none; /* Початково ховаємо кнопку */
     position: fixed; /* Фіксуємо кнопку на сторінці */
@@ -20,7 +25,3 @@ body {
     cursor: pointer; /* Змінюємо вигляд курсору при наведенні на кнопку */
 }
 
-a {
-    text-decoration: none;
-    color: rgb(4, 109, 35);
-}
